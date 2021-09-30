@@ -1,0 +1,223 @@
+/* ==UserStyle==
+@name           Darker Workflowy
+@namespace      workflowy.com
+@version        1.0.0
+@description    A darker & 0 saturation theme for workflowy.
+@author         L3ON
+==/UserStyle== */
+@-moz-document domain("workflowy.com") {
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+    .header {
+        background-color: #121212cc !important;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-bottom: none !important;
+        box-shadow: 0 1px 5px 0 #121212cc
+    }
+
+    body {
+        background: #121212 none repeat scroll 0% 0%;
+        font-family: 'fira code';
+    }
+
+    .children {
+        border-color: #333;
+    }
+
+    ._8uzpmq {
+        border-left: 1px solid #333;
+    }
+
+    .page.active {
+        background: #121212 none repeat scroll 0% 0%;
+    }
+
+    ._5k4qx {
+        color: rgb(130, 130, 130);
+        background-color: #121212 !important;
+    }
+
+    ._b191jt {
+        background: #1a1a1a none repeat scroll 0% 0%;
+        color: rgb(130, 130, 130);
+    }
+
+    ._mb1946 {
+        background: #1a1a1a none repeat scroll 0% 0%;
+        color: rgb(130, 130, 130);
+    }
+
+    element {
+        background: #121212 none repeat scroll 0% 0%;
+    }
+
+    ._118brxy {
+        background: #1a1a1a none repeat scroll 0% 0%;
+    }
+
+    ._1g6twsh {
+        background: #222 none repeat scroll 0% 0%;
+        color: rgb(130, 130, 130);
+    }
+
+    ._42hlq2 {
+        background: #222 none repeat scroll 0% 0%;
+    }
+
+    .flyout.menu {
+        background: #222 none repeat scroll 0% 0% !important;
+        border-color: #333 !important;
+    }
+
+    .content._1ixna7g._7uzqzf.data-hj-suppress {
+        opacity: 0.5;
+    }
+
+    ._vj340u {
+        background: #1a1a1a none repeat scroll 0% 0%;
+    }
+
+    ._1ksr4jl {
+        background: #1a1a1a none repeat scroll 0% 0%;
+    }
+
+    /* kanban */
+    .boardColumn {
+        background: #121212;
+    }
+
+    ._i850u2 {
+        background: #252525 none repeat scroll 0% 0%;
+        border: 1px solid #333;
+    }
+
+    ._i850u2:focus-within {
+        background: #252525 none repeat scroll 0% 0%;
+        border: 1px solid #555;
+    }
+
+    ._s907or {
+        border-right: 1px solid #333;
+        border-left: 1px solid #333;
+    }
+
+    ._ldkq9i {
+        border-right: 1px solid #333;
+        border-left: medium none;
+    }
+
+    ._1n3j05o:hover {
+        background: #252525;
+    }
+
+    ._1t5gxsy {
+        scrollbar-color: #2f2f2f transparent;
+    }
+
+    ._3mtykj {
+        scrollbar-color: #2f2f2f transparent;
+    }
+
+    ._f1dkzt {
+        scrollbar-color: #2f2f2f transparent;
+    }
+
+    ._xxkqj5 {
+        scrollbar-color: #2f2f2f transparent;
+    }
+
+    /* kanban end */
+    .highlighted {
+        background: #1a1a1a !important;
+    }
+
+    ._r2d7ta {
+        background: #222;
+        border-color: #333;
+    }
+
+    ._4544be:hover {
+        background: #222;
+    }
+
+    ._u1ncd9:hover {
+        background-color: #222 !important;
+    }
+
+    ._o14lmb:hover {
+        background: #222 none repeat scroll 0% 0%;
+    }
+
+    ._171jn1t:hover {
+        background: #222 none repeat scroll 0% 0%;
+    }
+
+    .iconButton:hover {
+        background: #222 none repeat scroll 0% 0%;
+    }
+
+    ._glumgw {
+        background: #333 none repeat scroll 0% 0%;
+    }
+
+    ._1o8tjeu {
+        background: rgb(51, 102, 119) none repeat scroll 0% 0%;
+    }
+
+    .flyout {
+        background: #222;
+    }
+
+    ._1rjjxr8 {
+        background: #222;
+    }
+
+    ._nfedqb {
+        background: #222 none repeat scroll 0% 0%;
+        border: 1px solid #333;
+        font-family: 'fira code', '微软雅黑', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    ._1fx0779 {
+        border: 1px solid rgb(36, 36, 36);
+        outline: currentcolor none medium;
+        background: rgb(22, 22, 22) none repeat scroll 0% 0%;
+    }
+    ._a1en0q {
+        border: 1px solid rgb(36, 36, 36);
+        outline: currentcolor none medium;
+        background: rgb(22, 22, 22) none repeat scroll 0% 0%;
+    }
+
+    ._wo9s1i {
+        border: 1px solid rgb(36, 36, 36);
+        background: rgb(22, 22, 22) none repeat scroll 0% 0%;
+    }
+
+    /********************************************/
+    .scroller.vertical-scrollable-container {
+        background-color: #1a1a1a;
+    }
+    time {
+        color: #9EA1A2;
+        border-bottom: none !important;
+        text-decoration: underline dotted 2px #9EA1A280;
+    }
+    .boardCard {
+        background: #252525 none repeat scroll 0% 0%;
+        border-color: #333 #333 #333 #333;
+    }
+    button {
+        background: #222 !important;
+    }
+    div#shared_notice {
+        background: #1a1a1a !important;
+        border: 1px solid #222 !important;
+        border-radius: 5px !important;
+    }
+    a.contentLink::before {
+        border-radius: 18px;
+        color: #9EA1A2;
+        content: "🔗 ";
+    }
+}
